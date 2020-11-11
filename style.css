@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    color: white
+}
+
+header {
+    height: 125px;
+    width: 1425px;
+    background-color: #242324;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+header h1 {
+    position: absolute;
+    bottom:0;
+    right:35px;
+}
+
+nav {
+    font-size: 20px;
+    background-color: #242324;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    left: 58px;
+    top: 246px;
+    border-radius: 20px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding-left: 20px;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:link {
+    text-decoration: none;
+}
+
+.open-link {
+    color:#FFEB14
+}
+
+.internal-link{
+    color: white
+}
+
+.fire {
+    display: block;
+    position: absolute;
+    left: 430px;
+    top: 136px;
+    width: 900px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 292px;
+    height: 151px;
+}
+
+#alert-notif {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 0px;
+    width: 250px;
+    height: 270px;
+    color: white;
+    background-color: #242324;
+    position: absolute;
+    top: 420px;
+    left: 450px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#todo {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 270px;
+    color: white;
+    background-color: #242324;
+    position: absolute;
+    top: 420px;
+    left: 760px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#new {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 270px;
+    color: white;
+    background-color: #242324;
+    position: absolute;
+    top: 420px;
+    left: 1060px;
+    border-radius: 20px;  
+}
+
+.new-contract {
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    background-color: #242324;
+    border-radius: 20px;
+    width: 925px;
+    clear: both;
+    color: white; 
+}
+
+.new-contract th {
+    font-size: 30px;
+}
+
+.new-contract input {
+    clear: left;
+}
+
+label {
+    color: white;
+    padding: 50px;
+}
+
+.submit {
+    position: relative;
+    height: 50px;
+    width: 150px;
+}
+
+.researcher {
+    position: absolute;
+    padding-left: 50px;
+    left: 500px;
+    top: 200px;
+    background-color: #242324;
+    border-radius: 20px;
+    width: 700px;
+    clear: both;
+    color: white; 
+}
+
+.search-details {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+tr>td {
+    padding-bottom: 1em;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert1 {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 800px;
+}
+
+.alert2 {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 800px;
+}
+
+.alert3 {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 800px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.closebtn:hover {
+    color: black;
+}
+
+.vertical-menu {
+    width: 800px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    border-radius: 20px;
+    border-color: #242324;
+    border-width: 5px;
+    border-style: solid;
+    padding: 30px;
+  }
+  
+.vertical-menu a {
+    background-color: #fff; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 20px;
+    border-color: #FFEB14;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.vertical-menu a:hover {
+    background-color: #fff;
+    border-radius: 20px;
+    border-color: #242324;
+    border-width: 5px;
+    border-style: solid; 
+}
+
+.vertical-menu a.active {
+    background-color: #fff;
+    color: black;
+}
+
+* {box-sizing:border-box}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #242324;
+  font-size: 10px;
+}
+
+.html {width: 5%; background-color: #FFEB14;} 

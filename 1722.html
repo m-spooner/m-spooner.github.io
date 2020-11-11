@@ -1,0 +1,326 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Active Contracts | Research Contracts</title>
+</head>
+
+<body>
+	<header>
+		<h1> Research Contracts </h1>
+        <img class="logo" src="./swinburne.png" alt="Swinburne University of Technology logo">
+	</header>
+	<nav class="navigation">
+        <ul>
+            <li><h3><a href="./home.html" class="internal-link">Home</a></h3></li>
+            <li><h3><a href="./alerts.html" class="internal-link">Alerts</a></h3></li>
+            <li><h3><a href="./activecontracts.html" class="open-link">Active Contracts</a></h3></li>
+            <li><h3><a href="./newcontract.html" class="internal-link">Create New Contract</a></h3></li>
+            <li><h3><a href="./pastcontracts.html" class="internal-link">Past Contracts</a></h3></li>
+            <li><h3><a href="./researcherdirectory.html" class="internal-link">Researcher Directory</a></h3></li>
+            <li><h3><a href="./todolist.html" class="internal-link">To Do List</a></h3></li>
+        </ul>
+    </nav>
+    <form action="submission.html" method="POST" class="new-contract">
+    <table border="0" width="93%" cellspacing="0" cellpadding="3" class="centre">
+        <tbody><tr>
+            <td>
+                <table border="0" width="100%" cellspacing="0" cellpadding="3" class="contract">
+                    <tbody><tr>
+                            <th colspan="2">#1722 - Mitchell Adams/IP Australia</th>
+                        </tr>
+                        <tr>
+                           <th colspan="2">
+                            <div class="container">
+                                <div class="skills html">New entry begun</div>
+                              </div>
+                           </th>
+                        </tr>
+                        <tr class="new">
+                            <td>Project Category:</td>
+                            <td>
+                                <select id="project-category" name="project-category" required>
+                                <option value="">-Please select-</option>
+                                <option value="Grant application">Grant Application</option>
+                                <option value="Funded contract" selected>Funded Contract</option>
+                                <option value="Non-funded Contract">Non-funded Contract</option>
+                                <option value="Tender">Tender</option>
+                            </select>
+                            </td>
+                        </tr>
+                       <tr class="new">
+                            <td>Chief Investigator Title:</td>
+                            <td>
+                            <select id="title" name="title" required>
+                                <option value="">-Please select-</option>
+                                <option value="Mr" selected>Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Ms">Ms</option>
+                                <option value="Mx">Mx</option>
+                                <option value="Dr">Dr</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr class="new">        
+                            <td>Full Name of Chief Investigator:</td>
+                            <td><input type="text" name="chief" id="chief" size = "50" required value="Mitchell Adams"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Faculty/Research Center:</td>
+                            <td>
+                            <select id="faculty" name="faculty" size="">
+                                <option value="">-Please select-</option>
+                                <option value="FBL" selected>Faculty of Business and Law</option>
+                                <option value="SIS">- Centre for Social Impact Swinburne</option>
+                                <option value="TI">- Centre for Transformative Innovation</option>
+                                <option value="HAD">Faculty of Health, Arts and Design</option>
+                                <option value="DI">- Centre for Design Innovation</option>
+                                <option value="FBS">- Centre for Forensic Behavioural Science</option>
+                                <option value="GHE">- Centre for Global Health and Equity</option>
+                                <option value="HP">- Centre for Human Psychology</option>
+                                <option value="MH">- Centre for Mental Health</option>
+                                <option value="TMT">- Centre for Transformative Media Technologies</option>
+                                <option value="UT">- Centre for Urban Transitions</option>
+                                <option value="SET">Faculty of Science, Engineering and Technology</option>
+                                <option value="AS">- Centre for Astrophysics and SUpercomputing</option>
+                                <option value="MP">- Centre for Micro-Photonics</option>
+                                <option value="QOS">- Centre for Quantum and Optical Science</option>
+                                <option value="SIDC">- Centre for Smart Infrastructure and Digital Construction</option>
+                                <option value="TA">- Centre for Translational Atomaterials</option>
+                                <option value="OSC">- Optical Sciences Centre</option>
+                                <option value="ARCTCB">ARC Training Centre in Biodevices</option>
+                                <option value="BEG">BioEngineering Group</option>
+                                <option value="BERC">Bioelectromagnetic Research Group</option>
+                                <option value="CAASTRO">CAASTRO (All-sky Astrophysics)</option>
+                                <option value="CRCP">CRC for Polymers</option>
+                                <option value="CRCSI">CRC for Spatial Information</option>
+                                <option value="CNeW">Centre for the New Workforce (CNeW)</option>
+                                <option value="CLPI">Cost of Living, Productivity and Inequality</option>
+                                <option value="CXIRG">Customer Experience and Insight (CXI) Research Group</option>
+                                <option value="DMTC">Defence Materials Technology Centre</option>
+                                <option value="DFM">Design Factory Melbourne</option>
+                                <option value="DMMRG">Design, Manufacturing and Mechanics Research Group</option>
+                                <option value="EBSCJP">Evidence-Based Sentencing and Criminal Justice Progect</option>
+                                <option value="FLEET">FLEET (Future Low Energy Electronics Technologies)</option>
+                                <option value="FPDRG">Fluid and Process Dynamics (FPD) Research Group</option>
+                                <option value="HARG">Health and Ageing Research Group</option>
+                                <option value="ISRL">Information Security Research Laboratory</option>
+                                <option value="ISSI">Information Systems for Social Impact</option>
+                                <option value="IMCRC">Innovative Manufacturing CRC</option>
+                                <option value="JIRCAM">Joint International Research Centre in Advanced Manufacturing</option>
+                                <option value="LCLCRC">Low Carbon Living CRC</option>
+                                <option value="MCNF">Melbourne Centre for Nanofabrication</option>
+                                <option value="NMHRC">NHMRC Australian Centre of Research Excellence for Electromagnetic Bio-Effects Research</option>
+                                <option value="NICMCCNMC">NICM Collaborative Centre for Natural Medicines and Neurocognition</option>
+                                <option value="OzGrav">OzGrav (Gravitational Wave Discovery)</option>
+                                <option value="SSCRC">Smart Services CRC</option>
+                                <option value="SPIRC">Social Psychology of Innovation Research Group</option>
+                                <option value="SESO">Social and Environmental Sustainability in Organisations</option>
+                                <option value="SIRC">Sport Innovation Research Group</option>
+                                <option value="SEAM">Surface Engineering for Advanced Materials (SEAM)</option>
+                                <option value="SBENRC">Sustainable Built Environment National Research Centre</option>
+                                <option value="SSRCST">Swinburne Sarawak Research Centre for Sustainable Technologies</option>
+                                <option value="THDMRG">Tourism, Hospitality, and Destination Management Research Group</option>
+                                <option value="TIC">Transport Innovation Centre</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td>Second Researcher Title (if applicable):</td>
+                            <td>
+                            <select id="title2" name="title2">
+                                <option value="">-Please select-</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Ms">Ms</option>
+                                <option value="Mx">Mx</option>
+                                <option value="Dr">Dr</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr class="new">   
+                            <td>Full Name of Second Researcher (if applicable):</td>
+                            <td><input type="text" name="second" size = "50" id="second"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Is Second Researcher a member of Swinburne University:</td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td>Second Researcher Research Centre/External Institution:</td>
+                            <td><input type="text" id="faculty2" name="faculty2" size = "50" ></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Name of Partner/Funder:</td>
+                            <td><input type="text" name="funder" id="funder" size="50" required value="IP Australia"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>ABN of Partner/Funder:</td>
+                            <td><input type="number" name="abn" id="abn" size="50" required pattern="[0-9]{11}" value="38113072755"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Address of Partner/Funder:</td>
+                            <td><textarea id="address" name="adress" rows="3" cols="50"></textarea></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Name of contact at Partner/Funder:</td>
+                            <td><input type="text" name="contact" id="contact" size="50" required></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Email of contact:</td>
+                            <td><input type="email" name="email" id="email" size="50" required></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Intended start date:</td>
+                            <td><input type="date" name="start" id="start"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Intended completion date:</td>
+                            <td><input type="date" name="end" id="end"></td> 
+                        </tr>
+                        <tr class="new">
+                            <td>External parties involved in project:</td>
+                            <td><input type="text" name="external" id="external" size="50"></td> 
+                        </tr>
+                        <tr class="new">
+                            <td>Does this project align with a strategic intiative of a Swinburne Research Institute?</td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="if-yes">If yes, which Institute?</label>
+                                <input type="text" name="if-yes" id="if-yes"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Have any staff from Business/Research Development been involved in the development of the project or external relationship?</td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="if-yes">If yes, who?</label>
+                                <input type="text" name="if-yes" id="if-yes"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Does the project use any patentable IP or invention disclosure?</td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td></td>
+                            <td><label for="if-yes">If yes, upload further details.</label>
+                            <input type="file" id="myFile" name="filename"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Is a student involved?</td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td>Is there any potential conflict of interest?</td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td>Please tick the relevant box(es) if this project includes </td>
+                            <td><input type="checkbox" name="overseas-org" id="overseas-org" value="overseas-org">
+                            <label for="overseas-org">Researchers, partners, or organisations from overseas</label>
+                            <input type="checkbox" name="int-location" id="int-location" value="int-location">
+                            <label for="int-location">An international location</label>
+                            <input type="checkbox" name="defence-trade" id="defence-trade" value="defence-trade">
+                            <label for="defence-trade">Research subject to defence trade controls</label>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td>
+                                <div class="tooltip">Will the faculty be required to provide any additional resources to deliver this project?
+                                    <span class="tooltiptext">Note: Additional resources may include cash, space, equipment and/or technical expertise. If you tick yes, please ensure you include more information in the project plan attached to this form.</span>
+                                  </div>
+                            </td>
+                            <td><input type="radio" name="yaynay" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="yaynay" id="no" value="no">
+                            <label for="no">No</label>
+                            </td>
+                        </tr>
+                        <tr class="new">
+                            <td></td>
+                            <td><label for="if-yes">If yes, upload further details.</label>
+                            <input type="file" id="myFile" name="filename"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Fee Schedule:</td>
+                            <td><input type="text" name="fee" id="fee" required></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Title of Project:</td>
+                            <td><input type="text" name="project" id="project" required></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Total amount requested by researcher ($AUD):</td>
+                            <td><input type="number" name="requested" id="requested" required value="3000"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>Total amount awarded by researcher ($AUD):</td>
+                            <td><input type="number" name="awarded" id="awarded" required></td>
+                        </tr>
+                        <tr class="new">
+                            <td>PR1 Form Submission Date:</td>
+                            <td><input type="date" name="pr1" id="pr1"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>SR1 Form Submission Date:</td>
+                            <td><input type="date" name="sr1" id="sr1"></td>             
+                        </tr>
+                        <tr class="new">
+                            <td>SR2 Form Submission Date:</td>
+                            <td><input type="date" name="sr2" id="sr2"></td>            
+                        </tr>
+                        <tr class="new">
+                            <td>Commencement Email sent:</td>
+                            <td><input type="date" name="commencement-email" id="commencement-email"></td>             
+                        </tr>
+                        <tr class="new">
+                            <td>Comments:</td>
+                            <td><textarea id="comments" name="comments" rows="10" cols="50"></textarea></td>
+                        </tr>
+                        <tr class="new">
+                            <td>All information contained within is correct, check here to agree:</td>
+                            <td><input type="checkbox" id="agree" name="agree"></td>
+                        </tr>
+                        <tr class="new">
+                            <td>&nbsp;</td>
+                            <td>
+                                <input type="submit" value="Submit" name="Submit" class="submit">
+                                <br><br>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+    </form>
+</body>
+</html>

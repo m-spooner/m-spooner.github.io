@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="to-do.css" type="text/css" rel="stylesheet">
+    <title>To Do List | Research Contracts</title>
+</head>
+
+<body>
+	<header>
+		<h1> Research Contracts </h1>
+        <img class="logo" src="./swinburne.png" alt="Swinburne University of Technology logo">
+	</header>
+	<nav class="navigation">
+        
+            <h3><a href="./home.html" class="internal-link">Home</a></h3>
+            <h3><a href="./alerts.html" class="internal-link">Alerts</a></h3>
+            <h3><a href="./activecontracts.html" class="internal-link">Active Contracts</a></h3>
+            <h3><a href="./newcontract.html" class="internal-link">Create New Contract</a></h3>
+            <h3><a href="./pastcontracts.html" class="internal-link">Past Contracts</a></h3>
+            <h3><a href="./researcherdirectory.html" class="internal-link">Researcher Directory</a></h3>
+            <h3><a href="./todolist.html" class="open-link">To Do List</a></h3>
+            
+        
+    </nav>
+    
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="New to do...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      
+      <ul id="myUL" class="list">
+        <li>Follow up on Mitchell Adams/IP Australia</li>
+        <li>Meeting at 12:30pm</li>
+        <li>Meet Kornel</li>
+      </ul>
+
+    <script src = "./to-do-function.js"></script>
+</body>
+</html>
